@@ -1,0 +1,73 @@
+.Organizations {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.OrganizationList {
+  /*&.Table.table {
+    min-height: 700px
+  }*/
+}
+
+.OrganizationListContainer {
+  margin-top: 25px;
+}
+
+.OrganizationList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.OrganizationList-Title {
+  position: relative;
+  display: inline-block;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.OrganizationList-OrganizationCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 230px;
+  top: 3px;
+}
+
+.OrganizationList-Filter {
+  margin-top: 20px;
+}
+
+.OrganizationList-FilterField {
+  max-width: 400px;
+}
+
+.OrganizationList-FilterFieldIcon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+}
+
+.AddOrganizationBtn {
+  margin-top: 10px;
+}
+
+.OrganizationList-OrganizationName {
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Open Sans Semibold", sans-serif;
+
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+}

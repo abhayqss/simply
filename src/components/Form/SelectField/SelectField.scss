@@ -1,0 +1,33 @@
+.SelectField {
+  position: relative;
+
+  .form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #f33232;
+    background-image: none;
+    padding: .375rem .75rem;
+  }
+
+  .MultiSelect {
+    background: white;
+  }
+
+  .MultiSelect-Options {
+    width: 100%;
+  }
+}
+
+.SelectField-Label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333333;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.SelectField-Error {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #dc3545;
+}

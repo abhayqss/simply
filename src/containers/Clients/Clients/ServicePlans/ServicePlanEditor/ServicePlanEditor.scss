@@ -1,0 +1,114 @@
+@media (min-width: 576px) {
+  .ServicePlanEditor {
+    &.modal-dialog {
+      width: 1030px;
+      max-width: 1040px;
+    }
+  }
+}
+
+.Hint-InfoIcon {
+  margin-left: 8px;
+  margin-bottom: 5px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.Hint {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.Hint-Wrapper {
+  position: relative;
+  display: flex;
+}
+
+.HintContainer {
+  &:after {
+    content: " ";
+    top: 10px;
+    right: 100%;
+    border: 6px solid;
+    margin-top: -5px;
+    position: absolute;
+    border-color: transparent #009288 transparent transparent;
+  }
+
+
+  display: block;
+  left: 40px;
+  z-index: 1;
+  width: 618px;
+  height: 566px;
+  position: absolute;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.Hint-Header {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  border-radius: 2px;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #009288;
+}
+
+.Hint-HeaderText {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.Hint-Detail {
+  display: flex;
+  margin-top: 6px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+.Hint-DetailNumber {
+  font-size: 32px;
+  font-weight: 600;
+  color: #009288;
+  margin-top: -7px;
+  margin-left: 30px;
+}
+
+.Hint-DetailText {
+  display: block;
+  width: 483px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.ServicePlanEditor-ArrowAnchor {
+  position: absolute;
+  right: 40px;
+  bottom: 80px;
+}
+
+.ServicePlanEditor-ArrowTopIcon {
+  &:hover {
+    cursor: pointer;
+  }
+
+  fill: #898989;
+  height: 32px;
+  width: 32px;
+  background-color: #f9f9f9;
+  padding: 6px;
+}
+
+.ServicePlanEditor-Footer {
+  .btn {
+    margin: 0 10px 0 14px;
+  }
+}

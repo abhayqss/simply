@@ -1,0 +1,55 @@
+.CommunityLocations {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.LocationsList {
+
+}
+
+.LocationsListContainer {
+  margin-top: 25px;
+}
+
+.LocationsList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LocationsList-Title {
+  position: relative;
+  display: inline-block;
+}
+
+.LocationsList-LocationCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 125px;
+  top: 3px;
+}
+
+.LocationsList-Filter {
+  margin-top: 20px;
+}
+
+.LocationsList-FilterField {
+  max-width: 400px;
+}
+
+.LocationsList-FilterFieldIcon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+}
+
+.AddLocationBtn {
+  margin-top: 10px;
+}

@@ -1,0 +1,5 @@
+Here you can place some ideas of refactoring and or TODO
+
+@Refactoring
+1) Refactor BaseService: need to reduce the excess code. But it can be available
+only after applying an authorization strategy

@@ -1,0 +1,67 @@
+.AppointmentForm {
+
+}
+
+.AppointmentForm-Section {
+  padding: 10px 35px 20px;
+}
+
+.AppointmentForm-SectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.AppointmentForm-SelectField {
+
+}
+
+.AppointmentForm-TextArea {
+  .TextField-Input {
+    height: 80px;
+  }
+}
+
+.AppointmentForm-CheckboxField {
+  margin-bottom: 30px;
+}
+
+.AppointmentForm-Button {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+
+  &.btn{
+    padding: 0;
+  }
+}
+
+.AppointmentForm-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.AppointmentForm-LabelIcon{
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.AppointmentForm-InfoIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: 107px;
+}
+
+.AppointmentForm-PhoneTooltipBody {
+  text-align: left;
+  padding: 7px 20px;
+  margin: 0;
+}

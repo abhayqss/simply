@@ -1,0 +1,26 @@
+.AssessmentTypeForm {}
+
+.AssessmentTypeForm-Section {
+  padding: 0 40px 20px;
+}
+
+.AssessmentTypeForm-SectionTitle {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.AssessmentTypeForm-SectionRow {
+  margin-top: 18px;
+}
+
+.AssessmentTypeForm-RadioGroupField {
+  .Radio {
+    margin-top: 25px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

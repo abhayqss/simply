@@ -1,0 +1,163 @@
+.CommunityDetails {
+  flex: 1;
+  padding: 30px 40px;
+  position: relative;
+}
+
+.CommunityDetails-Body {
+  padding: 10px 20px;
+}
+
+.CommunityDetails-Title {
+  flex: 1;
+  width: 500px;
+  color: #4C4E51;
+  font-size: 26px;
+  margin-top: 10px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.CommunityDetails-TitleWrapper {
+  width: 90%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.CommunityDetails-Header {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CommunityDetails-EditBtn {
+  margin-left: 10px;
+  height: 100%;
+}
+
+.CommunityDetails-HeaderLabel {
+  margin-bottom: 12px;
+  border: 1px solid #00524d;
+  color: #009288;
+  font-size: 14px;
+  padding: 7px;
+}
+
+.AddCareMemberBtn {
+  margin-top: 48px;
+}
+
+.CareTeamMemberListContainer {
+  min-height: 500px;
+}
+
+.CareTeamMemberList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CareTeamMemberList-Title {
+  position: relative;
+  display: inline-block;
+}
+
+.CareTeamMemberList-CareTeamMemberCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  right: -27px;
+  top: 3px;
+}
+
+.CareTeamMemberList-MemberAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.CareTeamMemberList-MemberName {
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+}
+
+.CareTeamMemberList-MemberRelation {
+  font-size: 14px;
+  color: #898989;
+}
+
+.CareTeamMemberList-Label {
+  font-size: 14px;
+  color: #333333;
+}
+
+.CareTeamMemberList-Actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.CommunityDetails-FilterFieldIcon {
+  top: 5px;
+  right: 5px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.CommunityDetails-Filter {
+  margin-top: 10px;
+}
+
+.CommunityDetails-AddToSelect {
+  display: inline-block;
+
+  .MultiSelect-ToggleText {
+    color: #448993;
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: "Open Sans Semibold", sans-serif;
+  }
+
+  .MultiSelect-ToggleChevron {
+    margin-right: 10px;
+  }
+
+  width: 180px;
+  height: 37px;
+  fill: #448993;
+  margin-top: 7px;
+  border-radius: 2px;
+  border: 1px solid #448993;
+}
+
+.CommunityDetail {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.CommunityDetail-Title {
+  flex: 1;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.CommunityDetail-Value {
+  flex: 4;
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  color: #4c4e51;
+}
+
+.CommunityDetail-Logo {
+  height: 40px;
+}

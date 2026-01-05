@@ -1,0 +1,32 @@
+.Footer {
+  padding: 15px 40px;
+}
+
+.Footer_theme_black {
+  background-color: #4C4E51;
+
+  .Footer-Copyright {
+    color: #BFBDBD;
+  }
+}
+
+.Footer_theme_gray {
+  background-color: #f9f9f9;
+
+  .Footer-Copyright {
+    color: #898989;
+  }
+}
+
+.Footer-Content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Footer-Copyright {
+  height: 30px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}

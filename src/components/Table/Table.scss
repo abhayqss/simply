@@ -1,0 +1,259 @@
+.TableContainer {
+
+}
+
+.Table {
+  tbody {
+    & > tr {
+      &.odd {
+        background-color: #ffffff;
+      }
+      &.even {
+        background-color: #F9F9F9;
+      }
+    }
+  }
+
+  &.table {
+    color: #333333;
+    border-collapse: separate;
+    border-spacing: 0 1px;
+
+    caption {
+      caption-side: top;
+      padding-bottom: 0;
+    }
+
+    tbody {
+      & > tr {
+        & > td {
+          border: 1px solid transparent;
+          padding: 12px 15px;
+          vertical-align: middle;
+          font-size: 14px;
+        }
+      }
+    }
+
+    thead {
+      .Table-Header {
+        vertical-align: middle;
+
+        th {
+          &:focus {
+            outline: none;
+          }
+
+          padding: 7px 15px;
+          font-size: 14px;
+          white-space: nowrap;
+          font-family: "Open Sans Semibold", sans-serif;
+        }
+      }
+    }
+  }
+
+  &.table-hover {
+    $radius: 5px;
+
+    tbody {
+      & > tr {
+        &:hover {
+          border-radius: $radius;
+          transform: scale(1);
+          -moz-transform: scale(1);
+          -webkit-transform: scale(1);
+          box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+
+          & > td {
+            border-top: 1px solid #BFBDBD;
+            border-bottom: 1px solid #BFBDBD;
+          }
+
+          & > td:first-child {
+            border-left: 1px solid #BFBDBD;
+            border-top-left-radius: $radius;
+            border-bottom-left-radius: $radius;
+          }
+
+          & > td:last-child {
+            border-right: 1px solid #BFBDBD;
+            border-top-right-radius: $radius;
+            border-bottom-right-radius: $radius;
+          }
+        }
+
+        & > td {
+          &:first-child {
+            border-left-width: 1px;
+          }
+
+          &:last-child {
+            border-right-width: 1px;
+          }
+
+          border-left-width: 0;
+          border-right-width: 0;
+        }
+      }
+    }
+  }
+}
+
+.Table-Caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.Table-Title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4C4E51;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.Table-Options {
+  &:hover {
+    background-color: #448993;
+    border-radius: 3px;
+    transition: 0.2s;
+    fill: white;
+    stroke: white;
+  }
+
+  cursor: pointer;
+  fill: #448993;
+  padding: 4px;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.Table-LoaderImg {
+  width: 50px;
+  height: 30px;
+}
+
+.Table-Header {
+  th {
+    font-size: 14px;
+    background-color: #4c4e51;
+    border: none !important;
+    color: #ffffff;
+
+    text {
+      margin-top: 5px;
+    }
+
+    &.sortable {
+      .chevron-bottom, .chevron-top {
+        fill: #ffffff;
+      }
+
+      .order {
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
+
+        .dropup, .dropdown {
+          svg {
+            width: 9px;
+            height: 9px;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Table-ColumnTitle {
+  vertical-align: middle;
+}
+
+.react-bootstrap-table-pagination {
+  .page-item {
+    .page-link {
+      .prev-page__icon {
+        fill: #4C4E51;
+      }
+      .next-page__icon {
+        fill: #4C4E51;
+      }
+    }
+
+    &.active {
+      .page-link {
+        border-color: #e0e0e0;
+        background-color: #f9f9f9;
+        color: #000000;
+        font-weight: bold;
+        font-family: "Open Sans Semibold", sans-serif;
+
+        &:hover {
+          background-color: #f9f9f9;
+        }
+      }
+    }
+
+    &.disabled {
+      .page-link {
+        .prev-page__icon {
+          fill: #cacaca;
+        }
+
+        .next-page__icon {
+          fill: #cacaca;
+        }
+      }
+    }
+  }
+
+  .page-item {
+    &.arrow {
+      .page-link {
+        &:hover {
+          color: #000000;
+          background-color: #f9f9f9;
+        }
+      }
+    }
+
+    .page-link {
+      color: #000000;
+      font-size: 14px;
+      padding: 7px 10.5px;
+      line-height: 1;
+      border-color: #e0e0e0;
+
+      &:focus {
+        box-shadow: none;
+      }
+
+      &:hover {
+        color: #000000;
+        border-color: #bdbdbd;
+        background-color: #ffffff;
+      }
+
+      .prev-page__icon,
+      .next-page__icon {
+        position: relative;
+        margin-top: -2px;
+      }
+    }
+  }
+
+  .react-bootstrap-table-pagination-list {
+    .react-bootstrap-table-page-btns-ul {
+      float: right;
+      margin-top: 0
+    }
+  }
+
+  .react-bootstrap-table-pagination-list-hidden {
+    display: none
+  }
+}

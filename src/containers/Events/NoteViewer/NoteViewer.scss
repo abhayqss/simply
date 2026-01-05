@@ -1,0 +1,32 @@
+@media (min-width: 576px) {
+  .NoteViewer {
+    &.modal-dialog {
+      width: 1030px;
+      max-width: 1040px;
+    }
+  }
+}
+
+.NoteViewer-Section {
+  padding: 20px 40px 20px;
+
+  .Detail {
+    display: flex;
+    margin: 0 24px;
+    padding: 16px 0;
+  }
+
+  .Detail-Title {
+    flex: 2;
+    color: #333333;
+    font-family: "Open Sans Semibold", sans-serif;
+    font-size: 14px;
+  }
+
+  .Detail-Value {
+    flex: 4;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,49 @@
+@media (min-width: 576px) {
+  .ClientEditor {
+    &.modal-dialog {
+      width: 1030px;
+      max-width: 1040px;
+    }
+  }
+}
+
+.ClientEditor-Footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ClientEditor-SharingDataSwitcher {
+  &.form-group {
+    margin-left: 25px;
+    margin-bottom: 0;
+  }
+
+  .SwitchField-Label {
+    font-size: 14px;
+    margin: 0 12px 0 0;
+    vertical-align: middle;
+    font-family: "Open Sans Semibold", sans-serif;
+  }
+}
+
+.ClientEditor-Switcher {
+
+}
+
+.ClientEditor-SwitchField {
+  display: flex;
+
+}
+
+.ClientEditor-SwitchFieldTitle {
+
+}
+
+.ClientEditor-SwitchFieldValue {
+
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  color: #4c4e51;
+}

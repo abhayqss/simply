@@ -1,0 +1,202 @@
+.MarketplaceCommunityDetails {
+  flex: 1;
+}
+
+.MarketplaceCommunityDetails-Body {
+  flex: 1;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.MarketplaceCommunityDetails-Section {
+  margin-top: 40px;
+}
+
+.MarketplaceCommunityDetails-ContactInfoSectionTitle,
+.MarketplaceCommunityDetails-ServicesSectionTitle,
+.MarketplaceCommunityDetails-ProgramRequirementsSectionTitle{
+  display: block;
+  font-size: 20px;
+  color: #4c4e51;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.MarketplaceCommunityDetails-ServicesSection,
+.MarketplaceCommunityDetails-ProgramRequirementsSection {
+  margin-right: 24px;
+}
+
+.MarketplaceCommunityDetails-SectionTitle {
+  
+}
+
+.MarketplaceCommunityDetails-Title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.MarketplaceCommunityDetails-OrganizationCommunityNames {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.MarketplaceCommunityDetails-PrimaryFocus {
+  font-size: 16px;
+  margin-bottom: 2px;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+}
+
+.MarketplaceCommunityDetails-Types {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.MarketplaceCommunityDetails-ServicesSummaryDescription {
+  font-size: 14px;
+  color: #333333;
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.MarketplaceCommunityDetails-Address {
+  font-size: 14px;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+}
+
+.MarketplaceCommunityDetails-Icon {
+  height: 24px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.MarketplaceCommunityDetails-Phone {
+  font-size: 14px;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+}
+
+.MarketplaceCommunityDetails-Description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+
+.MarketplaceCommunityDetails-Service,
+.MarketplaceCommunityDetails-ProgramRequirement {
+  &:last-child {
+    margin-bottom: 15px;
+    border-bottom: none;
+  }
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  padding: 22px 0 5px 0;
+  width: 90%;
+  border-bottom: 1px dashed #bfbdbd;
+  margin-left: 24px;
+}
+
+.MarketplaceCommunityDetails-Container {
+  overflow: auto;
+}
+
+.MarketplaceCommunityDetails-Filter{
+  width: 100%
+}
+
+.MarketplaceCommunityDetails-Btns {
+  margin-top: 25px;
+}
+
+.MarketplaceCommunityDetails-AppointmentBtn {
+  &.btn {
+    padding: 0;
+    width: 206px;
+    border-radius: 2px;
+    height: 35px;
+  }
+
+  margin-right: 24px;
+}
+
+.MarketplaceCommunityDetails-DirectionsBtn {
+    &.btn {
+      padding: 0;
+      width: 100px;
+      border-radius: 2px;
+      height: 35px;
+    }
+}
+
+.MarketplaceCommunityDetails-Exclusion,
+.MarketplaceCommunityDetails-Prerequisite {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-bottom: 15px;
+}
+
+.MarketplaceCommunityDetails-Accordion {
+  &:first-child {
+    margin-top: 20px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.MarketplaceCommunityDetails-AccordionTitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+.MarketplaceCommunityDetails-AccordionIcon {
+    font-size: 30px;
+    color: #898989;
+}
+
+.MarketplaceCommunityDetails-InsuranceNetwork {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  padding: 15px 0 5px 0;
+  width: 90%;
+  border-bottom: 1px dashed #bfbdbd;
+  margin-left: 24px;
+  margin-bottom: 15px;
+}
+
+.MarketplaceCommunityDetails-InsuranceNetworkPaymentPlan {
+  padding-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-left: 24px;
+  margin-right: 24px;
+}

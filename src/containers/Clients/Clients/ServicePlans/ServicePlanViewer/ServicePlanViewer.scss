@@ -1,0 +1,156 @@
+@media (min-width: 576px) {
+  .ServicePlanViewer {
+    &.modal-dialog {
+      width: 1030px;
+      max-width: 1040px;
+    }
+  }
+}
+.ServicePlanViewer-Section, .ServicePlanChangeHistoryContainer {
+  padding: 20px 40px 20px;
+}
+
+.ServicePlanViewer-SectionTitle {
+  &:first-child {
+    margin-top: 0;
+  }
+
+  font-size: 26px;
+  font-weight: bold;
+  color: #4c4e51;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ServicePlanChangeHistory-Title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4c4e51;
+  margin-top: 30px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ServicePlanChangeHistory-ViewDetailsBtn {
+  color: #448993;
+  padding-left: 0 !important;
+
+  &:hover{
+    text-decoration: none;
+    color: #448993;
+  }
+}
+
+.ServicePlanViewer-Button {
+  &.btn {
+    padding: 0;
+  }
+
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+}
+
+.ServicePlanViewer-Tabs {
+  padding-top: 20px;
+}
+
+.ServicePlanViewer-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.ServicePlanViewer-Actions {
+  .delete {
+    fill: #448993;
+  }
+
+  float: right;
+}
+
+.ServicePlanViewer-Anchors {
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+  margin-right: 32px;
+}
+
+.AddNeedBtn {
+  &.btn {
+    padding: 0;
+  }
+
+  margin-top: 7px;
+  width: 198px;
+  height: 35px;
+}
+
+.AddBtn {
+  &.btn {
+    padding: 0;
+  }
+
+  margin-top: 7px;
+  width: 105px;
+  height: 35px;
+}
+
+.DeleteBtn {
+  &:hover {
+    background-color: #448993;
+    border-radius: 3px;
+    transition: 0.2s;
+    fill: white;
+    stroke: white;
+    cursor: pointer;
+  }
+
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+}
+
+.ServicePlanViewer-SectionHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ServicePlanViewer-Scoring__ActivationTable {
+  &.Table.table {
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-bottom: 0;
+
+    thead .Table-Header {
+      vertical-align: top;
+    }
+
+    tbody tr td {
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      padding: 21px 17px;
+      vertical-align: top;
+      font-size: 14px;
+    }
+
+    caption {
+      display: none;
+    }
+
+    th {
+      font-size: 14px;
+      background-color: #f6f6f6;
+      color: #333333;
+      height: 78px;
+    }
+  }
+}

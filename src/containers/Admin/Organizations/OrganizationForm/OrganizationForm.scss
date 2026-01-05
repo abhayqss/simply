@@ -1,0 +1,95 @@
+.OrganizationForm {
+  position: relative;
+
+  .Marketplace {
+    margin-top: 0;
+  }
+}
+
+.OrganizationForm-Section {
+  padding: 20px 40px 20px;
+}
+
+.OrganizationForm-SectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.OrganizationForm-Tabs {
+  margin-top: 15px;
+}
+
+.OrganizationForm-TextAreaField {
+  .TextField-Input {
+    height: 75px;
+  }
+}
+
+.OrganizationForm-SelectField {
+
+}
+
+.OrganizationForm-SearchField {
+  margin-top: 2rem;
+
+  &.TextField {
+    margin-bottom: 1rem;
+  }
+}
+
+.OrganizationForm-CheckboxField {
+  margin-bottom: 2rem;
+}
+
+.OrganizationForm-Button {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+
+  &.btn{
+    padding: 0;
+  }
+}
+
+.OrganizationForm-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.OrganizationForm-Actions{
+  float: right;
+
+  .delete {
+    fill: #448993;
+  }
+}
+
+.Relationship-Title {
+  color: #4c4e51;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.Relationship {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.OrganizationForm-LabelIcon {
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.OrganizationForm-PhoneTooltipBody {
+  text-align: left;
+  padding: 7px 20px;
+  margin: 0;
+}

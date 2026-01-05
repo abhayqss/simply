@@ -1,0 +1,66 @@
+.Alert {
+  margin: 15px 0;
+  border: 1px solid;
+  display: flex;
+  border-radius: 2px;
+  flex-direction: row;
+}
+
+.SuccessAlert {
+  border-color: #53b865;
+}
+
+.SuccessAlert-Indicator {
+  background-color: #53b865;
+}
+
+.WarningAlert {
+  border-color: #ffb602;
+}
+
+.WarningAlert-Indicator {
+  background-color: #ffb602;
+}
+
+.DangerAlert {
+  border-color: #f33232;
+}
+
+.DangerAlert-Indicator {
+  background-color: #f33232;
+}
+
+.Alert-Indicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  position: relative;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+.Alert-Icon {
+  fill: #ffffff;
+  width: 48px;
+  height: 48px;
+}
+
+.Alert-Body {
+  flex: 1;
+  padding: 12px 17px;
+}
+
+.Alert-Title {
+  color: #333333;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Alert-Text {
+  color: #333333;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}

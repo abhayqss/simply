@@ -1,0 +1,57 @@
+.ContactForm {
+  position: relative;
+}
+
+.ContactForm-Section {
+  padding: 20px 40px 20px;
+}
+
+.ContactForm-SectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ContactForm-SelectField {
+
+}
+
+.ContactForm-InfoIcon {
+  margin-top: -10px;
+}
+
+.ContactForm-CheckboxField {
+  margin-top: 28px;
+}
+
+.ContactForm-Button {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+
+  &.btn{
+    padding: 0;
+  }
+}
+
+.ContactForm-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.ContactForm-LabelIcon{
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.ContactForm-TooltipBody {
+  text-align: left;
+  padding: 7px 20px;
+  margin: 0;
+}

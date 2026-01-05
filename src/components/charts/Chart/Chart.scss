@@ -1,0 +1,30 @@
+.Chart {
+  display: inline-block;
+  margin-left: 200px;
+
+  .recharts-legend-item {
+    margin-top: 30px;
+
+    .recharts-legend-item-text {
+      color: #333333;
+      font-size: 14px;
+      margin-left: 12px;
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+
+  .recharts-legend-item:first-child {
+    margin-top: 0;
+  }
+}
+
+.Chart-Title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4c4e51;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.Chart:first-child {
+  margin-left: 0;
+}

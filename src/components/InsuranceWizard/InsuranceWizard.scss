@@ -1,0 +1,105 @@
+.InsuranceWizard {
+  padding: 10px;
+}
+
+.InsuranceWizardPopup {
+  position: absolute;
+  top: 75px;
+  left: 15px;
+  right: 15px;
+  padding: 15px;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+  z-index: 100;
+}
+
+.InsuranceWizard-Tabs {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.InsuranceWizard-Tab {
+  width: 30%;
+  cursor: pointer;
+}
+
+.InsuranceWizard-TabTitle {
+  color: #bfbdbd;
+  font-size: 12px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+
+.InsuranceWizard-TabCheckedIcon {
+  fill: #27638f;
+  height: 12px;
+}
+
+.InsuranceWizard-Indicators {
+  display: none;
+}
+
+.InsuranceWizard-StepIndicator {
+  height: 8px;
+  border: 1px solid #27638f;
+}
+
+.InsuranceWizard-StepIndicator_active {
+  background-color: #27638f;
+}
+
+.InsuranceWizard-Tab_active,
+.InsuranceWizard-Tab_checked {
+  .InsuranceWizard-TabTitle {
+    font-weight: bold;
+    color: #27638f;
+  }
+}
+
+.InsuranceWizard-Body {
+
+}
+
+.InsuranceWizard-PickerTitle {
+  color: #4c4e51;
+  font-size: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+  margin-bottom: 20px;
+}
+
+.InsuranceWizard-PickerSection {
+  &:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  margin-bottom: 24px;
+  border-bottom: 1px dashed #bfbdbd;
+}
+
+.InsuranceWizard-PickerSectionTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #bfbdbd;
+}
+
+.InsuranceWizard-PickerItem {
+  color: #448993;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.InsuranceWizard-NetworkGroupTitle {
+  font-size: 20px;
+}
+
+.InsuranceWizard-Highlight {
+  background-color: #fff1ca;
+  padding: 0;
+  border-radius: 2px;
+}

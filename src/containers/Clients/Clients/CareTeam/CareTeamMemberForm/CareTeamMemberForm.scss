@@ -1,0 +1,55 @@
+.CareTeamMemberForm {
+
+}
+
+.CareTeamMemberForm-Section {
+  padding: 20px 40px 20px;
+}
+
+.CareTeamMemberForm-SectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.CareTeamMemberForm-SelectField {
+
+}
+
+.CareTeamMemberForm-Button {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+
+  &.btn{
+    padding: 0;
+  }
+}
+
+.CareTeamMemberForm-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.CareTeamMemberForm-LabelIcon{
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.CareTeamMemberForm-Title {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333333;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.CareTeamMemberForm-Wrapper {
+  margin-bottom: 30px;
+}

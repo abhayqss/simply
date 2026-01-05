@@ -1,0 +1,120 @@
+.InsuranceNetworkPaymentPlanPicker {
+  padding-bottom: 40px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.InsuranceNetworkPaymentPlanListContainer {
+  height: 300px;
+  overflow: scroll;
+}
+
+
+.InsuranceNetworkPaymentPlanList {
+  $radius: 5px;
+
+  &.Table.table-striped {
+    tbody {
+      tr {
+        &:nth-of-type(even) {
+          td:first-child {
+            border-top-left-radius: $radius;
+            border-bottom-left-radius: $radius;
+          }
+
+          td:last-child {
+            border-top-right-radius: $radius;
+            border-bottom-right-radius: $radius;
+          }
+        }
+
+        td {
+          vertical-align: center;
+        }
+      }
+    }
+  }
+
+  .SelectField {
+    margin: 0;
+  }
+}
+
+.InsuranceNetworkPaymentPlanList {
+  &.Table {
+    table-layout: auto;
+
+    caption {
+      display: none;
+    }
+
+    th {
+      background-color: #ffffff;
+      color: #333333;
+    }
+
+    &.table-hover {
+      tbody {
+        tr {
+          &:hover {
+            transform: none;
+          }
+        }
+      }
+    }
+    &.table-striped {
+      tbody {
+        tr {
+          &:nth-of-type(odd) {
+            background-color: #f9f9f9;
+          }
+          &:nth-of-type(even) {
+            background-color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.InsuranceNetworkPaymentPlanList-Actions {
+  float: right;
+
+  .delete {
+    fill: #448993;
+  }
+}
+
+.InsuranceNetworkPaymentPlanPicker-Btns {
+  margin-bottom: 16px;
+}
+
+.InsuranceNetworkPaymentPlanPicker-Btn {
+  &.btn {
+    padding: 0;
+  }
+
+  float: right;
+  width: 100px;
+  height: 35px;
+  border-radius: 1px;
+  margin-right: 25px;
+}
+
+.InsuranceNetworkPaymentPlanPicker-ListContainer {
+  padding: 0 17px;
+}
+
+.InsuranceNetworkPaymentPlanList-MultiSelect {
+  .MultiSelect-Options {
+    width: 340px;
+  }
+  width: 340px;
+  border: 1px solid #dddddd;
+}
+
+.InsuranceNetworkPaymentPlanList-Highlight {
+  background-color: #fff1ca;
+  padding: 0;
+  border-radius: 2px;
+}

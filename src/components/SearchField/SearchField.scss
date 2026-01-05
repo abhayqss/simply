@@ -1,0 +1,27 @@
+.SearchField {
+  input {
+    padding-right: 40px;
+  }
+}
+
+.SearchField-SearchBtn {
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  bottom: 6px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.SearchField-CrossBtn {
+  &:hover {
+    cursor: pointer;
+  }
+
+  right: 12px;
+  bottom: 8px;
+  width: 18px;
+  height: 18px;
+  fill: #4C4E51;
+  position: absolute;
+}

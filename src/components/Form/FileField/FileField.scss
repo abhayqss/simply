@@ -1,0 +1,65 @@
+.FileField {
+  position: relative;
+}
+
+.FileField.form-group {
+  margin-bottom: 2rem;
+}
+
+.FileField-Label{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.FileField-Input.form-control-file {
+  display: none;
+}
+
+.FileField-SelectedFile.form-control {
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid #dddddd;
+  font-size: 14px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.FileField-Placeholder.form-control {
+  color: #d5d5d5;
+}
+
+.FileField-BrowseBtn.btn {
+  margin-left: 24px;
+  font-size: 14px;
+  height: 35px;
+  border-radius: 2px;
+  padding: 6px 16px;
+}
+
+.FileField-RemoveBtn.btn {
+  margin-left: 24px;
+  font-size: 14px;
+  height: 35px;
+  border-radius: 2px;
+  padding: 6px 16px;
+}
+
+.FileField-Hint {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 13px;
+  color: #898989;
+}
+
+.FileField-Error {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #dc3545;
+}

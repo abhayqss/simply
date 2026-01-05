@@ -1,0 +1,104 @@
+.Invitation {
+  flex: 1;
+  display: flex;
+  background: #ffffff;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.Invitation-InfoText {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Invitation-SimplyConnectLink, .Invitation-SimplyConnectPolicyLink {
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.Invitation-EmailText {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Invitation-Title {
+  width: 440px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  color: #4c4e51;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.Invitation-Body {
+  display: flex;
+  flex-direction: row;
+}
+
+.Invitation-LogoImage {
+  width: 220px;
+  height: 76px;
+  margin-right: 50px
+}
+
+.Invitation-PasswordComplexityRules {
+
+}
+
+.Invitation-Text {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #333333;
+}
+
+.Invitation-Detail {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.Invitation-DetailIcon {
+  fill: #ffb602;
+  flex: none;
+}
+
+.Invitation-DetailText {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #333333;
+}
+
+.Invitation-Btn {
+  &.btn {
+    padding: 0;
+  }
+
+  margin-right: 30px;
+  width: 100px;
+  height: 35px;
+}
+
+.Invitation-AcceptBtnText {
+  font-size: 9px;
+  margin-bottom: 20px;
+}
+
+.Invitation-SuccessText {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #333333;
+}

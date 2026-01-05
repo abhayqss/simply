@@ -1,0 +1,193 @@
+.NoteDetails {
+  border-radius: 2px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+  min-height: calc(100% - 66px);
+  padding-bottom: 1px;
+}
+
+.NoteDetails-Section {
+  padding: 24px 0;
+
+  .Detail {
+    &:last-child {
+      border-bottom: none;
+    }
+
+    display: flex;
+    border-bottom: 2px dashed #f1f1f1;
+    margin: 0 24px;
+    padding: 16px 0;
+  }
+
+  .Detail-Title {
+    flex: 3;
+    color: #333333;
+    font-family: "Open Sans Semibold", sans-serif;
+    font-size: 14px;
+  }
+
+  .Detail-Value {
+    flex: 4;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+  }
+}
+
+.NoteDescription {
+  padding-bottom: 24px;
+}
+
+.NoteDescription-Title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.NoteDescription-TitleText {
+  position: relative;
+  display: inline-block;
+  font-size: 26px;
+  color: #4C4E51;
+  padding-left: 24px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.NoteDetails-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edf4f5;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  height: 50px;
+}
+
+.NoteDetails-NoDataText {
+  padding: 8px;
+  text-align: center;
+}
+
+.NoteDetails-Tabs {
+  margin-left: 8px;
+
+  &.Tabs.nav-tabs {
+    .nav-item {
+      &:hover {
+        background: transparent;
+      }
+
+      &:last-child {
+        .nav-link {
+          border: none;
+        }
+      }
+    }
+
+    .nav-link {
+      &.active {
+        border: none;
+        color: #333333;
+        background: transparent;
+      }
+
+      color: #448993;
+      border: none;
+      text-transform: uppercase;
+      background-color: transparent;
+    }
+  }
+}
+
+.NoteDetails-EditNoteBtn {
+  &:hover {
+    cursor: pointer;
+  }
+
+  fill: #448993;
+  margin-right: 24px;
+}
+
+.NoteChangeHistory {
+
+}
+
+.NoteChangeHistoryContainer {
+  padding: 12px 24px 24px 24px;
+}
+
+.NoteChange-Status {
+  color: #333333;
+  font-size: 14px;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+
+.NoteChange-ViewBtn {
+  &.btn-link {
+    cursor: pointer;
+    color: #448993;
+    font-family: "Open Sans Semibold", sans-serif;
+    font-size: 14px;
+    width: auto;
+
+    &:hover {
+      color: #448993;
+      text-decoration: none;
+    }
+
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.NoteDescription-Detail {
+  &:last-child {
+    border-bottom: none;
+  }
+
+  display: flex;
+  border-bottom: 2px dashed #f1f1f1;
+  padding: 16px 0;
+}
+
+.NoteDescription-DetailTitle {
+  flex: 3;
+  color: #333333;
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 14px;
+}
+
+.NoteDescription-DetailValue {
+  flex: 4;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.NoteDescription-Link {
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+
+  flex: 4;
+  color: #448993;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.NoteDescription-Subtype {
+  font-family: "Open Sans Semibold", sans-serif;
+  padding: 0 8px;
+}
+
+.NoteDescription-Status {
+  flex: 4;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding: 0 8px;
+}

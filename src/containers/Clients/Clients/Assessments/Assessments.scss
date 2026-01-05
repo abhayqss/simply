@@ -1,0 +1,79 @@
+.Assessments {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.AssessmentList {
+
+}
+
+.AssessmentListContainer {
+  margin-top: 25px;
+}
+
+.AssessmentList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AssessmentList-Title {
+  position: relative;
+  display: inline-block;
+}
+
+.Assessments-Count {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 230px;
+  top: 3px;
+}
+
+.AssessmentList-Filter {
+  margin-top: 20px;
+}
+
+.AssessmentList-FilterField {
+  max-width: 400px;
+}
+
+.AssessmentList-FilterFieldIcon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+}
+
+.AddAssessmentBtn {
+  margin-top: 10px;
+}
+
+.AssessmentList-AssessmentName {
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+}
+
+.AssessmentList-AssessmentStatus {
+  color: #333333;
+  font-size: 14px;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+
+.AssessmentList-ClientName {
+  font-weight: normal;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}

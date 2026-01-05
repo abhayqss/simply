@@ -1,0 +1,229 @@
+.Dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.Dashboard-Body {
+  flex: 1;
+}
+
+.Dashboard-Charts {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.DashboardContainer {
+  padding: 35px;
+}
+
+.RecentEventsSummary-Title, .RecentNotesSummary-Title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #4c4e51;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.EventList, .NoteList {
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    width: 8px;
+    height: 150px;
+    object-fit: contain;
+    background-color: #e0e0e0;
+    border-radius:2px
+  }
+  max-height: 375px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  height: 150px;
+  object-fit: contain;
+  background-color: #e0e0e0;
+  border-radius:2px
+}
+
+.EventList-Item, .NoteList-Item {
+  &.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+    border-bottom: 2px solid #f2f2f2;
+    border-radius: 0;
+    padding: 0 2px 8px 2px;
+  }
+
+  margin-top: 30px;
+}
+
+.Dashboard-EventNoteContainer {
+  display: flex;
+  padding: 35px;
+}
+
+.RecentEventsSummary {
+  flex: 1 1;
+  border-top: 8px solid #ffb602;
+  padding: 24px 20px;
+  margin-right: 15px;
+  width: calc(50% - 30px);
+  border-radius: 3px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+}
+
+.RecentNotesSummary {
+  flex: 1 1;
+  border-top: 8px solid #448993;
+  padding: 24px 20px;
+  margin-left: 15px;
+  width: calc(50% - 30px);
+  border-radius: 3px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+}
+
+/*This Class is common, so we can use it at many places*/
+.Dashboard-Status {
+  height: 22px;
+  color: #333333;
+  font-size: 14px;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+
+.EventList-ViewMoreBtn, .NoteList-ViewMoreBtn {
+  float: right;
+  margin-top: 20px;
+}
+
+.AppointmentList-DateTimeWrapper {
+  position: relative;
+  text-align: right;
+}
+
+.Dashboard-Date {
+  font-size: 18px;
+}
+
+.EventList-DateTime, .NoteList-DateTime {
+  width: 75px;
+  font-family: "Open Sans Semibold", sans-serif;
+  font-size: 14px;
+  text-align: right;
+  color: #4c4e51;
+}
+
+.EventList-TextWrapper, .NoteList-TextWrapper {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 70%;
+}
+
+.CaseloadListContainer {
+  margin-top: 30px;
+  padding: 35px;
+}
+
+.CaseloadList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AppointmentList-NumberSequence {
+  &:after {
+    content: '';
+    top: 25px;
+    left: 11px;
+    position: absolute;
+    height: 85px;
+    width: 3px;
+    background-color: #ffb602;
+  }
+
+  width: 26px;
+  left: 0;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  height: 26px;
+  background-color: #ffb602;
+  border-radius: 50%;
+}
+
+.EventList-ClientProblem, .NoteList-ClientProblem {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.AppointmentListContainer {
+  margin-top: 30px;
+  padding: 35px;
+}
+
+.AppointmentList {
+  &.Table.table tbody tr {
+    td {
+      &:first-child {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      padding-top: 34px;
+    }
+
+    &:nth-of-type(even) {
+    background-color: #ffffff;
+    }
+
+    &:last-child .Dashboard-NumberSequence:after {
+      display: none;
+    }
+  }
+}
+
+/*This Class is common, so we can use it at many places*/
+.Dashboard-Link {
+  display: block;
+  font-size: 14px;
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Open Sans Semibold", sans-serif;
+  margin: 0 15px 8px 0;
+
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+}
+
+.AppointmentList-Location {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+
+

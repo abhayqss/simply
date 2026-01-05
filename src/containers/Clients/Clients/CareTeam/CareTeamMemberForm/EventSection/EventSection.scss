@@ -1,0 +1,15 @@
+.EventSection {
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  margin-bottom: 30px;
+}
+
+.EventSection-Title {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333333;
+  font-family: "Open Sans Semibold", sans-serif;
+}

@@ -1,0 +1,116 @@
+.ClientDocumentsDevicesSummary {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+  border-top: 8px solid #ffb602;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  margin-left: 32px;
+}
+
+.ClientDocumentsSummary {
+
+}
+
+.ClientDocumentsSummary-Title {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Open Sans Semibold", sans-serif;
+  margin-bottom: 16px;
+}
+
+.ClientDocumentsSummary-Item {
+  border-top: 1px dashed #dddddd
+}
+
+.ClientDocument {
+  display: flex;
+  padding: 16px 0;
+}
+
+.ClientDocument-TypeIcon {
+  margin-right: 12px;
+}
+
+.ClientDocument-Title {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ClientDocument-Date {
+
+}
+
+.ClientDocument-ViewBtn {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.ClientDocument-DownloadBtn {
+  height: 24px;
+  width: 24px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.ClientDocumentsSummary-ViewAllBtn {
+
+}
+
+.ClientDevicesSummary-Title {
+  color: #333333;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Open Sans Semibold", sans-serif;
+  margin-bottom: 16px;
+}
+
+.ClientDevicesSummary-Item {
+  border-top: 1px dashed #dddddd
+}
+
+.ClientDevice {
+  display: flex;
+  padding: 16px 0;
+}
+
+.ClientDevice-TypeIcon {
+  margin-right: 12px;
+}
+
+.ClientDevice-Title {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ClientDevice-Summary {
+
+}
+
+.ClientDevice-EditBtn {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  fill: #448993;
+}
+
+.ClientDevice-DeleteBtn {
+  height: 24px;
+  width: 24px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.ClientDevicesSummary-AddNewBtn {
+  margin-right: 24px;
+}
+
+.ClientDevicesSummary-ViewAllBtn {
+
+}

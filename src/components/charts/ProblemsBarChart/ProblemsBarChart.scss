@@ -1,0 +1,25 @@
+.ProblemsBarChart {
+  .recharts-default-legend {
+    .recharts-legend-item {
+      margin-right: 30px !important;
+
+      .recharts-surface {
+        margin-right: 10px !important;
+      }
+
+      .recharts-legend-item-text {
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+      }
+    }
+  }
+
+  .xAxis, .yAxis {
+    .recharts-cartesian-axis-ticks {
+      .recharts-cartesian-axis-tick {
+        font-family: "Open Sans Semibold", sans-serif;
+        font-size: 13px;
+      }
+    }
+  }
+}

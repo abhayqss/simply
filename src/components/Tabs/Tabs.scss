@@ -1,0 +1,81 @@
+.Tabs {
+  &.nav-tabs {
+    border-bottom: none;
+    justify-content: center;
+
+    .nav-item {
+      &:hover{
+      background-color: #f6f6f6;
+      }
+
+      &:first-child {
+        .nav-link {
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
+      }
+
+      &:last-child {
+        .nav-link {
+          border-right: 1px solid #27638F;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+      }
+    }
+
+    .nav-link {
+      color: #27638F;
+      border-radius: 0;
+      border-color: #27638F;
+      cursor: pointer;
+      border-right: none;
+      font-weight: bold;
+
+      &:hover {
+        color: #27638F;
+        border-color: #27638F;
+      }
+    }
+
+    .nav-link.active {
+      color: #ffffff;
+      border: 1px solid #27638F;
+      background-color: #27638F;
+    }
+
+    .nav-item.show {
+      .nav-link {
+        color: #495057;
+        background-color: #27638F;
+        border-color: #dee2e6 #dee2e6 #fff;
+      }
+    }
+  }
+}
+
+.Tabs-Tab {
+  position: relative;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.Tabs-TabIndicator {
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.Tabs-TabIndicatorIcon {
+  width: 10px;
+  height: 12px;
+  fill: #27638F;
+  display: block;
+}
+
+.Tabs-TabError {
+  &.Tabs-TabLink.nav-link {
+    color: white;
+    border: 1px solid #f33232 !important;
+    background-color: #f33232 !important;
+  }
+}

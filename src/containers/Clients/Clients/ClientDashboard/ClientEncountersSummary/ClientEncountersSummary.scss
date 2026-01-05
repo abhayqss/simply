@@ -1,0 +1,110 @@
+.ClientEncountersSummary {
+
+}
+
+.ClientEncountersSummary-Title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4c4e51;
+  font-family: "Open Sans Semibold", sans-serif;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.ClientEncountersSummary-TitleText {
+  margin-right: 6px;
+}
+
+.ClientEncountersSummary-Body {
+  display: flex;
+  padding: 24px 20px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.ClientEncountersSummary-EncounterCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 4px 11px;
+  }
+
+  position: absolute;
+  top: 0;
+}
+
+.ClientEncountersSummary-Chart {
+  flex: 1;
+}
+
+.ClientEncounterList {
+}
+
+.ClientEncounterList-Item {
+  &.list-group-item {
+    border: none;
+  }
+}
+
+.ClientEncounter-Type {
+  color: #448993;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ClientEncounter-Date {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ClientEncounter-Status {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 8px;
+}
+
+.ClientEncounter-Points {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 4px 8px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+.ClientEncounter-Time {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ClientEncounterChart-Control {
+  margin-right: 24px;
+  display: inline-block;
+}
+
+.ClientEncounterChart-EventDateRange {
+  display: inline-block;
+  vertical-align: middle;
+
+  &.TextField.form-group {
+    margin: 0;
+  }
+
+  .TextField-Input.form-control {
+    padding-right: 22px;
+  }
+}
+
+.ClientEncounterChart-EventDateRangeIcon {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+}
+
+.ClientEncounterSummary-ViewEventsBtn {
+  height: 35px;
+
+  &.btn {
+    padding: 6px 16px;
+  }
+}

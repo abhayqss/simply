@@ -1,0 +1,43 @@
+.Dialog {
+  .btn {
+    &:last-child {
+      margin-right: 0;
+    }
+
+    white-space: nowrap;
+    margin-right: 24px;
+    min-width: 100px;
+    height: 35px;
+    line-height: 1;
+  }
+}
+
+.Dialog-Body {
+  &.modal-body {
+    position: static;
+    overflow-x: hidden;
+    padding: 40px 50px;
+  }
+}
+
+.Dialog-Icon {
+  height: 48px;
+  width: 48px;
+}
+
+.Dialog-Title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #4c4e51;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Dialog-Text {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #333333;
+}

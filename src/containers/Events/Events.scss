@@ -1,0 +1,248 @@
+.Events {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.Events-Title {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.Events-TitleText {
+  position: relative;
+  display: inline-block;
+  font-size: 26px;
+  color: #4C4E51;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.Events-TotalCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 90px;
+  top: 3px;
+}
+
+.Event-ClientName, .Note-ClientName {
+  color: #333333;
+  cursor: pointer;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.Event-Type, .Note-Type {
+  color: #333333;
+  font-size: 14px;
+  border-radius: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Note-Category, .Event-EntityType {
+  color: #333333;
+  font-size: 11px;
+  padding: 0 8px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.Events-FilterSwitcher {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.EventFilter-Expanded {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+.EventFilter-Collapsed {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.EventFilter {
+  width: 100%;
+  padding: 15px 24px;
+  background-color: #f9f9f9;
+  margin-bottom: 24px;
+
+  .btn {
+    padding: 0;
+    width: 100px;
+    height: 35px;
+    margin-right: 25px;
+  }
+}
+
+.Events-OrganizationSelect, .Events-CommunitySelect {
+  &:hover{
+    padding: 8px 16px;
+  }
+
+  margin-right: 25px;
+  display: inline-block;
+  max-width: 420px;
+
+  .MultiSelect-ToggleText {
+    color: #448993;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .MultiSelect-ToggleTextOnExpand {
+    color: #448993;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .MultiSelect-ToggleChevron {
+    fill: #448993;
+  }
+}
+
+.Events-Navigation {
+}
+
+.Events-NavHeader {
+  display: flex;
+  align-items: center;
+  background-color: #edf4f5;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  height: 50px;
+}
+
+.Events-NavTabs {
+  margin-left: 8px;
+
+  &.Tabs.nav-tabs {
+    .nav-item {
+      &:hover {
+        background: transparent;
+      }
+
+      &:last-child {
+        .nav-link {
+          border: none;
+        }
+      }
+    }
+
+    .nav-link {
+      &.active {
+        border: none;
+        color: #333333;
+        background: transparent;
+      }
+
+      color: #448993;
+      border: none;
+      text-transform: uppercase;
+      background-color: transparent;
+    }
+  }
+}
+
+.Events-NavTab {
+
+}
+
+.EventNoteComposedList, .EventList, .NoteList {
+  $radius: 5px;
+
+  &.table-striped {
+    tbody {
+      tr {
+        display: flex;
+        margin-top: 5px;
+        border-radius: 5px;
+        border-left: 8px solid;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:nth-of-type(odd) {
+          background-color: #ffffff;
+        }
+        &:nth-of-type(even) {
+          background-color: #F9F9F9;
+        }
+
+      }
+    }
+  }
+
+  &.table-hover {
+
+    tbody {
+      tr:hover {
+        border-left: 8px solid;
+        margin-bottom: 5px;
+        border-radius: $radius;
+        transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+
+        td {
+          .Event-Type {
+            white-space: normal;
+          }
+        }
+
+        td:first-child {
+          border: none;
+          width: 100%;
+        }
+
+        td:last-child {
+          border: none;
+          text-align: right;
+        }
+        td {
+          border: none;
+        }
+      }
+    }
+  }
+
+  &.table {
+    border-collapse: separate;
+    border-spacing: 0 1px;
+
+    caption {
+      display: none;
+    }
+
+    tbody {
+      tr {
+        td {
+          border: 0;
+          padding: 12px 16px;
+          vertical-align: middle;
+          font-size: 14px;
+          width: 65%;
+        }
+
+        td:last-child {
+          border: none;
+          text-align: right;
+        }
+      }
+    }
+
+    thead {
+      display: none;
+    }
+  }
+}
+
+.Events-Breadcrumbs {
+  padding: 35px  35px 0 35px;
+}

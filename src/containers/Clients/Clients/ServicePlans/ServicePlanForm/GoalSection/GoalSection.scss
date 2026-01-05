@@ -1,0 +1,23 @@
+.GoalSection {
+
+}
+
+.GoalSection-Title {
+  color: #4c4e51;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.GoalSection-Header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.GoalSection-TextAreaField {
+  .TextField-Input {
+    height: 80px;
+  }
+}

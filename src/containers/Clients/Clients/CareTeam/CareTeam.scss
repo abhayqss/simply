@@ -1,0 +1,148 @@
+.CareTeam {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.CareTeamMemberList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CareTeamMemberList-Title {
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  color: #4c4e51;
+}
+
+.CareTeamMemberList-CareTeamMemberCount {
+  &.badge  {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  right: -27px;
+  top: 3px;
+}
+
+.CareTeamMemberList-Image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: calc(50% - 30px);
+}
+
+.CareTeamMemberList-VideoCallIcon {
+  &:hover {
+    cursor: pointer;
+  }
+
+  float: right;
+}
+
+.CareTeamMemberList-MemberName {
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.CareTeamMemberList-Organization {
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+
+  &:hover {
+    cursor: pointer;
+    color: #448993;
+    text-decoration: none;
+  }
+}
+
+.CareTeamMemberList-Community {
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+
+  &:hover {
+    cursor: pointer;
+    color: #448993;
+    text-decoration: none;
+  }
+}
+
+.CareTeamMemberList-MemberRelation {
+  font-size: 14px;
+  color: #898989;
+  text-align: center;
+}
+
+.CareTeamMemberList-Label {
+  font-size: 14px;
+  color: #333333;
+}
+
+.CareTeamMemberList-Actions {
+  float: right;
+  margin-top: 10px;
+}
+
+.CareTeamMemberList-CenterAlign {
+  display: grid;
+  margin-bottom: 25px;
+}
+
+.CareTeamMemberList-DetailText {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 6px;
+}
+
+.CareTeamMemberList-DetailValue {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+  margin-bottom: 20px;
+}
+
+.CareTeamMemberList-ContactDetail {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+}
+
+.ClientDetailPopup-Heading {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.ClientDetailPopup-Radio {
+  margin-bottom: 25px;
+}
+
+.ClientDetailPopup-Btn {
+  &.btn-default , &.btn-success{
+    border-radius: 0;
+    padding: 6px 16px;
+  }
+
+  width: 92px;
+  height: 35px;
+  margin-right: 16px;
+  border-radius: 0;
+}
+
+.CareTeamMemberListContainer {
+  margin-top: 25px;
+}

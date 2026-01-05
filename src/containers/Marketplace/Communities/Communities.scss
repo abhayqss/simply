@@ -1,0 +1,153 @@
+.MarketplaceCommunities {
+  flex: 1;
+}
+
+.MarketplaceCommunities-Body {
+  padding: 0 35px 20px;
+}
+
+.MarketplaceCommunities-Title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4c4e51;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.MarketplaceCommunities-CommunityName {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.MarketplaceCommunityFilter {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.MarketplaceCommunityFilter-ClearBtn {
+  margin-right: 24px;
+}
+
+.MarketplaceCommunityList-Title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4c4e51;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.MarketplaceCommunityFilter-Title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #4c4e51;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.MarketplaceCommunityList-Search {
+  width: 100%;
+  display: flex;
+}
+
+.MarketplaceCommunityList-SearchField {
+  flex: 1;
+}
+
+.MarketplaceCommunityList-SearchBtn {
+  &.btn {
+    padding: 0;
+    width: 100px;
+    height: 35px;
+    margin-left: 5px;
+  }
+}
+
+.MarketplaceCommunityRow {
+  margin-bottom: 24px;
+}
+
+.MarketplaceCommunityFilter-Fields {
+  width: 100%;
+  height: 200px;
+  padding: 12px 24px;
+  background-color: #f9f9f9;
+
+  .btn {
+    padding: 0;
+    width: 100px;
+    height: 35px;
+    margin-top: 31px;
+  }
+}
+
+.MarketplaceCommunityFilter-Icon {
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right: 32px;
+  margin-left: 10px;
+}
+
+.MarketplaceCommunityFilter_expanded {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+.MarketplaceCommunityFilter_collapsed {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.MarketplaceCommunitySummary {
+  margin-bottom: 70px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.MarketplaceCommunitySummary-Title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.MarketplaceCommunitySummary-PrimaryFocuses {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 16px;
+}
+
+.MarketplaceCommunitySummary-Rating {
+
+}
+
+.MarketplaceCommunitySummary-Address {
+  display: flex;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 16px;
+}
+
+.MarketplaceCommunitySummary-Phone {
+  font-size: 14px;
+  color: #333333;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 16px;
+}
+
+.MarketplaceCommunitySummary-AppointmentBtn {
+  margin-right: 24px;
+}
+
+.MarketplaceCommunitySummary-Icon {
+  height: 24px;
+  width: 20px;
+  margin-right: 12px;
+}

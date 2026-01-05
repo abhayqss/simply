@@ -1,0 +1,50 @@
+@for $i from 1 through 10 {
+  .flex-#{$i} { flex: $i !important; }
+}
+
+@each $o in 'top' 'right' 'bottom' 'left' {
+  @each $i in 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 40 45 50 55 60 65 70 75 80 {
+    .margin-#{$o}-#{$i} { margin-#{$o}: #{$i}px !important; }
+  }
+}
+
+@each $o in 'top' 'right' 'bottom' 'left' {
+  @each $i in 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 40 45 50 55 60 {
+    .padding-#{$o}-#{$i} { padding-#{$o}: #{$i}px !important; }
+  }
+}
+
+@for $i from 1 through 30 {
+  .font-size-#{$i} { font-size: #{$i}px !important; }
+}
+
+$w: 5;
+@while $w < 300 {
+  .width-#{$w} { width: #{$w}px !important; }
+  $w: $w + 5;
+}
+
+$w: 5;
+@while $w < 300 {
+  .min-width-#{$w} { min-width: #{$w}px !important; }
+  $w: $w + 5;
+}
+
+.line-height-1 {
+  line-height: 1 !important;
+}
+
+.ShowMoreBtn {
+  color: #009288;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.text-trim {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.no-pointer-events {
+  pointer-events: none;
+}

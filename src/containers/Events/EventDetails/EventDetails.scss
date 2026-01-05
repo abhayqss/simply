@@ -1,0 +1,267 @@
+.EventDetails {
+  border-radius: 2px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+  min-height: calc(100% - 66px);
+  padding-bottom: 1px;
+}
+
+.EventDetails-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edf4f5;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  height: 50px;
+}
+
+.EventDetails-Tabs {
+  margin-left: 8px;
+
+  &.Tabs.nav-tabs {
+    .nav-item {
+      &:hover {
+        background: transparent;
+      }
+
+      &:last-child {
+        .nav-link {
+          border: none;
+        }
+      }
+    }
+
+    .nav-link {
+      &.active {
+        color: #333333;
+        background-color: transparent;
+      }
+
+      border: none;
+      color: #448993;
+      text-transform: uppercase;
+      background-color: transparent;
+    }
+  }
+}
+
+.EventDescription {
+
+}
+
+.EventDescription-Section {
+  padding: 24px 0;
+
+  .Detail {
+    &:last-child {
+      border-bottom: none;
+    }
+
+    display: flex;
+    border-bottom: 2px dashed #f1f1f1;
+    margin: 0 24px;
+    padding: 16px 0;
+  }
+
+  .Detail-Title {
+    flex: 3;
+    color: #333333;
+    font-family: "Open Sans Semibold", sans-serif;
+    font-size: 14px;
+  }
+
+  .Detail-Value {
+    flex: 4;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+  }
+}
+
+.EventDescription-SectionTitle {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+  font-size: 26px;
+  color: #4C4E51;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.EventDescription-Alert {
+  padding: 18px 16px;
+  margin: 24px;
+  background-color: #fff1ca;
+}
+
+.EventDescription-AlertText {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.EventDescription-AlertHighlightedText {
+  font-family: "Open Sans Bold", sans-serif;
+}
+
+.EventDetails-NoDataText {
+  padding: 8px;
+  text-align: center;
+}
+
+.EventDetails-Link {
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+
+  flex: 4;
+  color: #448993;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.EventDescription-Type {
+  font-family: "Open Sans Semibold", sans-serif;
+  padding: 0 8px;
+}
+
+.EventDescription-Status {
+  flex: 4;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+.EventDescription-Navigation {
+  padding: 24px;
+}
+
+.EventDescription-NavLink {
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 18px;
+}
+
+.EventDetails-CreateEventBtn {
+  &:hover {
+    cursor: pointer;
+  }
+
+  fill: #448993;
+  margin-right: 16px;
+}
+
+.EventDetails-DownloadPdfBtn {
+  &:hover {
+    cursor: pointer;
+  }
+
+  fill: #448993;
+  margin-right: 24px;
+}
+
+.EventRelatedNoteList {
+
+}
+
+.EventRelatedNoteListContainer {
+  padding: 12px 24px 24px 24px;
+}
+
+.EventRelatedNote-Status {
+  color: #333333;
+  font-size: 14px;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+
+.EventRelatedNote-ViewBtn {
+  &.btn-link {
+    cursor: pointer;
+    color: #448993;
+    font-family: "Open Sans Semibold", sans-serif;
+    font-size: 14px;
+    width: auto;
+
+    &:hover {
+      color: #448993;
+      text-decoration: none;
+    }
+
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.EventSentNotificationList {
+
+}
+
+.EventSentNotificationListContainer {
+  padding: 12px 24px 24px 24px;
+}
+
+.EventSentNotification-ContactAvatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: calc(50% - 30px);
+}
+
+.EventSentNotification-ContactFullName {
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+  margin-top: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.EventSentNotification-ContactRole {
+  font-size: 14px;
+  color: #333333;
+}
+
+.EventSentNotification-Hint {
+  .tooltip-inner {
+    max-width: none;
+    width: 100%;
+  }
+
+  .arrow {
+    left: 15px !important;
+  }
+}
+
+.SubDetail {
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.SubDetail-Title {
+  text-transform: uppercase;
+  color: #898989;
+  font-size: 11px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.SubDetail-Value {
+
+}

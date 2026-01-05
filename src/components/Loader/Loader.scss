@@ -1,0 +1,32 @@
+.Loader {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.Loader_has_backdrop {
+  .LoaderImg {
+    top: 50%;
+    z-index: 2;
+    position: fixed;
+  }
+}
+
+.LoaderImg {
+  width: 50px;
+  height: 30px;
+}
+
+.Loader-Backdrop {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

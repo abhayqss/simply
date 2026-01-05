@@ -1,0 +1,42 @@
+.tooltip-inner {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 13px !important;
+  color: #7d7e7f !important;
+  border: solid 1px #bfbdbd !important;
+  background-color: #ffffff !important;
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, .2) !important;
+}
+
+.tooltip {
+  &.show {
+    opacity: 1 !important;
+  }
+}
+
+.bs-tooltip-top {
+  .arrow::before {
+    border-top-color: #ffffff !important;
+    filter: drop-shadow(0 0 1px #bfbdbd)!important;
+  }
+}
+
+.bs-tooltip-bottom {
+  .arrow::before {
+    border-bottom-color: #ffffff !important;
+    filter: drop-shadow(0 0 1px #bfbdbd) !important;
+  }
+}
+
+.bs-tooltip-right {
+  .arrow::before {
+    border-right-color: #ffffff !important;
+    filter: drop-shadow(0 0 1px #bfbdbd) !important;
+  }
+}
+
+.bs-tooltip-left {
+  .arrow::before {
+    border-left-color: #ffffff !important;
+    filter: drop-shadow(0 0 1px #bfbdbd) !important;
+  }
+}

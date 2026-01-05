@@ -1,0 +1,259 @@
+.MultiSelect {
+  button:focus {
+    outline: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  padding: 8px 16px;
+  position: relative;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f6f6f6;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0;
+  }
+
+  &.form-control {
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+  }
+}
+
+.MultiSelect_disabled {
+  cursor: auto;
+
+  .MultiSelect-Toggle {
+    &:hover {
+      cursor: auto;
+    }
+  }
+
+  .MultiSelect-SearchBox {
+    background-color: #e0e0e0;
+  }
+
+  background-color: #e0e0e0 !important;
+  opacity: 1;
+}
+
+.MultiSelect-Option_disabled {
+  pointer-events: none;
+  background: #f9f9f9;
+}
+
+.MultiSelect-Option_selected {
+  &.MultiSelect-Option_tick {
+    border-top: 1px #bfbdbd solid;
+    border-bottom: 1px #bfbdbd solid;
+    background-color: #f9f9f9;
+
+    & + .MultiSelect-Option_tick {
+      border-top: 0;
+    }
+  }
+}
+
+.MultiSelect-Option_tick {
+  .MultiSelect-OptionText {
+    margin: 0;
+  }
+}
+
+.MultiSelect-Toggle {
+  display: flex;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  cursor: pointer;
+  text-align: right;
+  justify-content: space-between;
+}
+
+.MultiSelect-ToggleText {
+  color: #333333;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Open Sans", sans-serif;
+}
+
+.MultiSelect-ToggleTex_placeholder {
+  color: #d5d5d5;
+  font-weight: normal;
+}
+
+.MultiSelect-SearchBox {
+  width: 100%;
+  border: 0;
+  color: #333333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Open Sans", sans-serif;
+
+  &::placeholder {
+    color: #d5d5d5;
+  }
+}
+
+.MultiSelect-ToggleChevron {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  fill: #e0e0e0;
+}
+
+.MultiSelect-Options {
+  top: 35px;
+  left: 0;
+  width: 350px;
+  max-height: 500px;
+  flex-direction: column;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 3px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.MultiSelect-OptionSeparator {
+  display: block;
+  height: 2px;
+  width: 100%;
+  margin: 15px 10px 0;
+  border-top: 1px dashed #bfbdbd;
+}
+
+.MultiSelect_collapsed {
+  .MultiSelect-Options {
+    display: none;
+  }
+}
+
+.MultiSelect-Option {
+  padding: 10px;
+  display: flex;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.MultiSelect-Option_tick {
+  padding: 5px 10px;
+}
+
+.MultiSelect-Option_checkbox {
+  padding: 10px;
+}
+
+.MultiSelect-OptionText {
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+.MultiSelect-Options::-webkit-scrollbar {
+  width: 10px;
+}
+
+.MultiSelect-Options::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.MultiSelect-Options::-webkit-scrollbar-thumb {
+  width: 8px;
+  height: 150px;
+  object-fit: contain;
+  background-color: #e0e0e0;
+  border-radius:2px
+}
+
+.MultiSelect_expanded {
+  background-color: #f6f6f6;
+  border-radius: 2px;
+  border: 1px solid #e0e0e0;
+}
+
+.MultiSelect-Checkbox {
+  display: inline-block;
+  position: relative;
+  height: 27px;
+  width: 27px;
+  border: 1px solid #e0e0e0;
+  margin-right: 10px;
+  flex: none;
+}
+
+.MultiSelect-CheckMark {
+  left: 8px;
+  position: absolute;
+  top: 4px;
+  width: 9px;
+  height: 15px;
+  border: solid #448993;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.MultiSelect-Tick {
+  position: absolute;
+  top: 0;
+  right: -20px;
+  width: 9px;
+  height: 15px;
+  border: solid #448993;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.MultiSelect-SectionTitle {
+  margin-top: 24px;
+  font-size: 16px;
+  color: #4c4e51;
+  font-family: "Open Sans Semibold", sans-serif;
+  margin-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 16px;
+}
+
+.MultiSelect-SectionItem {
+  &:last-child {
+    border-bottom: 1px dashed #bfbdbd;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+  }
+
+  display: flex;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+}
+
+.MultiSelect-SectionCheckMark{
+  width: 9px;
+  margin-left: 12px;
+  height: 15px;
+  border: solid #448993;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}

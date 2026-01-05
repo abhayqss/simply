@@ -1,0 +1,92 @@
+.ServicePlans {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.ServicePlanList {
+
+}
+
+.ServicePlanListContainer {
+  margin-top: 25px;
+}
+
+.ServicePlanList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ServicePlanList-TitleWrapper {
+  padding-right: 6px;
+}
+
+.ServicePlanList-Title {
+  position: relative;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  color: #4C4E51;
+}
+
+.ServicePlanList-Status {
+  &:hover {
+    cursor: pointer;
+  }
+
+  cursor: pointer;
+  color: #333333;
+  font-size: 14px;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+
+.ServicePlanList-ServicePlanCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  top: 90px;
+}
+
+.ServicePlanList-Filter {
+  margin-top: 20px;
+}
+
+.ServicePlanList-FilterField {
+  max-width: 400px;
+}
+
+.ServicePlanList-FilterFieldIcon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+}
+
+.AddServicePlanBtn {
+  margin-top: 10px;
+}
+
+.ServicePlanList-ServicePlanNumber {
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ServicePlanList-ClientName {
+  flex: 1;
+  margin-top: 16px;
+  margin-left: 5px;
+  font-size: 20px;
+  color: #4c4e51;
+}

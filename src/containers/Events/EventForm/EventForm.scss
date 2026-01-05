@@ -1,0 +1,81 @@
+.EventForm {
+
+}
+
+.EventForm-Section {
+  padding: 20px 40px 20px;
+}
+
+.EventForm-SectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.EventForm-TextArea {
+  .TextField-Input {
+    height: 75px;
+  }
+}
+
+.EventForm-SelectField {
+
+}
+
+.EventForm-EventTypeSelectField {
+  .MultiSelect-Options {
+    max-height: 500px;
+  }
+}
+
+.EventForm-SearchField {
+  margin-top: 2rem;
+}
+
+.EventForm-CheckboxField {
+  margin-bottom: 2rem;
+}
+
+.SelectField-Section {
+  border-left: 8px solid;
+  margin-top: 24px;
+}
+
+.SelectField-SectionTitle {
+  font-size: 16px;
+  color: #4c4e51;
+  font-family: "Open Sans Semibold", sans-serif;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.SelectField-SectionItem {
+  &:last-child {
+    border-bottom: 1px dashed #bfbdbd;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+  }
+
+  display: flex;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+}
+
+.SelectField-SectionCheckMark{
+  width: 9px;
+  margin-left: 12px;
+  height: 15px;
+  border: solid #448993;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}

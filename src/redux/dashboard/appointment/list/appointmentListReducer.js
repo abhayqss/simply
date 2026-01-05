@@ -1,0 +1,90 @@
+import InitialState from './AppointmentListInitialState'
+
+import { ACTION_TYPES, PAGINATION } from 'lib/Constants'
+import Immutable from 'immutable'
+
+const {
+    LOGOUT_SUCCESS,
+    CLEAR_ALL_AUTH_DATA,
+
+    CLEAR_DASHBOARD_APPOINTMENT_LIST_ERROR,
+
+    CLEAR_DASHBOARD_APPOINTMENT_LIST,
+    CLEAR_DASHBOARD_APPOINTMENT_LIST_FILTER,
+    CHANGE_DASHBOARD_APPOINTMENT_LIST_FILTER,
+
+    LOAD_DASHBOARD_APPOINTMENT_LIST_REQUEST,
+    LOAD_DASHBOARD_APPOINTMENT_LIST_SUCCESS,
+    LOAD_DASHBOARD_APPOINTMENT_LIST_FAILURE
+} = ACTION_TYPES
+
+const { FIRST_PAGE } = PAGINATION
+
+const initialState = new InitialState()
+
+export default function appointmentListReducer (state = initialState, action) {
+    if (!(state instanceof InitialState)) {
+        return initialState.mergeDeep(state)
+    }
+
+    switch (action.type) {
+        case LOGOUT_SUCCESS:
+        case CLEAR_ALL_AUTH_DATA:
+        case CLEAR_DASHBOARD_APPOINTMENT_LIST:
+            return state.removeIn(['error'])
+                .setIn(['isFetching'], false)
+                .setIn(['shouldReload'], action.payload || false)
+                .setIn(['dataSource', 'data'], [])
+                .setIn(['dataSource', 'pagination', 'page'], FIRST_PAGE)
+                .removeIn(['dataSource', 'pagination', 'totalCount'])
+
+        case CLEAR_DASHBOARD_APPOINTMENT_LIST_ERROR:
+            return state.removeIn(['error'])
+
+        case CLEAR_DASHBOARD_APPOINTMENT_LIST_FILTER:
+            return state.removeIn(['dataSource', 'filter', 'name'])
+
+        case CHANGE_DASHBOARD_APPOINTMENT_LIST_FILTER: {
+            const { changes, shouldReload = true } = action.payload
+
+            if (changes) {
+                return state
+                    .mergeIn(['dataSource', 'filter'], Immutable.fromJS(changes))
+                    .setIn(['shouldReload'], shouldReload)
+            }
+
+            break
+        }
+
+        case LOAD_DASHBOARD_APPOINTMENT_LIST_REQUEST:
+            return state
+                .setIn(['error'], null)
+                .setIn(['shouldReload'], false)
+                .setIn(['isFetching'], true)
+
+        case LOAD_DASHBOARD_APPOINTMENT_LIST_SUCCESS: {
+            const {
+                data,
+                page,
+                size,
+                totalCount
+            } = action.payload
+
+            return state
+                .setIn(['isFetching'], false)
+                .setIn(['shouldReload'], false)
+                .setIn(['dataSource', 'data'], data)
+                .setIn(['dataSource', 'pagination', 'page'], page)
+                .setIn(['dataSource', 'pagination', 'size'], size)
+                .setIn(['dataSource', 'pagination', 'totalCount'], totalCount)
+        }
+
+        case LOAD_DASHBOARD_APPOINTMENT_LIST_FAILURE:
+            return state
+                .setIn(['isFetching'], false)
+                .setIn(['shouldReload'], false)
+                .setIn(['error'], action.payload)
+    }
+
+    return state
+}

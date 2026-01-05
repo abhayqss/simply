@@ -1,0 +1,26 @@
+.LoginForm {
+  display: inline-block;
+  width: 385px;
+}
+
+.LoginForm-ForgetPasswordLink {
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+
+  }
+}
+
+.LoginForm-LoginBtn {
+  width: 100px;
+  height: 35px;
+
+  &.btn {
+    padding: 0;
+  }
+}

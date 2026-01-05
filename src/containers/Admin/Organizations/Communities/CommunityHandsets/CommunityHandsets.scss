@@ -1,0 +1,67 @@
+.CommunityHandsets {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.CommunityHandsetList {
+
+}
+
+.CommunityHandsetListContainer {
+  margin-top: 25px;
+}
+
+.CommunityHandsetList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CommunityHandsetList-Title {
+  position: relative;
+  display: inline-block;
+}
+
+.CommunityHandsetList-CommunityHandsetCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 125px;
+  top: 3px;
+}
+
+.CommunityHandsetList-Filter {
+  margin-top: 20px;
+}
+
+.CommunityHandsetList-FilterField {
+  max-width: 400px;
+}
+
+.CommunityHandsetList-FilterFieldIcon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+}
+
+.AddCommunityHandsetBtn {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.CommunityHandsetList-CommunityHandsetName {
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+}

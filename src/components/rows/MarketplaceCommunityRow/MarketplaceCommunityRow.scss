@@ -1,0 +1,51 @@
+.MarketplaceCommunityRow {
+  padding-right: 36px;
+  padding-bottom: 29px;
+}
+
+.MarketplaceCommunityRow-Title {
+  margin-bottom: 4px;
+  color: #333333;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.MarketplaceCommunityRow-PrimaryFocuses {
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.MarketplaceCommunityRow-Address {
+  color: #898989;
+  font-size: 14px;
+}
+
+.MarketplaceCommunityRow-Distance {
+  min-width: 50px;
+  color: #898989;
+  font-size: 14px;
+}
+
+.MarketplaceCommunityRow-MoreInfo,
+.MarketplaceCommunityRow-Navigate {
+  &:hover {
+  cursor: pointer;
+  }
+
+  margin-left: 15px;
+  margin-top: 10px;
+  float: right;
+  color:  #448993;
+  font-size: 26px;
+}
+
+.MarketplaceCommunityRow-Highlight {
+  background-color: #fff1ca;
+  padding: 0;
+  border-radius: 2px;
+}

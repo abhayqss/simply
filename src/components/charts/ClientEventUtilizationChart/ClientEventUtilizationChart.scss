@@ -1,0 +1,78 @@
+.ClientEventUtilizationChart {
+
+  .recharts-default-legend {
+    .recharts-legend-item {
+      margin-right: 30px !important;
+
+      .recharts-surface {
+        margin-right: 10px !important;
+      }
+
+      .recharts-legend-item-text {
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+      }
+    }
+  }
+
+  .xAxis, .yAxis {
+    .recharts-cartesian-axis-ticks {
+      .recharts-cartesian-axis-tick {
+        font-family: "Open Sans Semibold", sans-serif;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.ClientEventUtilizationChart-Title {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.ClientEventUtilizationChart-TitleText {
+  margin-right: 6px;
+}
+
+.ClientEventUtilizationChart-Body {
+  padding: 35px 0 35px 0;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.11);
+}
+
+.ClientEventUtilizationChart-Control {
+  margin-right: 24px;
+  display: inline-block;
+}
+
+.ClientEventUtilizationChart-ViewMode {
+  display: inline-block;
+  vertical-align: middle;
+
+  .ActionButtonList-Toggle{
+    border: none;
+    height: 35px;
+
+    &:hover {
+      border: none;
+    }
+  }
+}
+
+.ClientEventUtilizationChart-EventDateRange {
+  display: inline-block;
+  vertical-align: middle;
+
+  &.TextField.form-group {
+    margin: 0;
+  }
+
+  .TextField-Input.form-control {
+    padding-right: 22px;
+  }
+}
+
+.ClientEventUtilizationChart-EventDateRangeIcon {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+}

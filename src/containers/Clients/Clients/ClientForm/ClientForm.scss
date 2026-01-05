@@ -1,0 +1,82 @@
+.ClientForm {
+  position: relative;
+}
+
+.ClientForm-Section {
+  padding: 20px 40px 20px;
+}
+
+.ClientForm-SectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ClientForm-SelectField {
+
+}
+
+.ClientForm-RadioGroupField {
+  .RadioGroupField-Body {
+    display: flex;
+  }
+
+  .RadioGroupField-Title {
+     margin-bottom: 10px;
+  }
+
+}
+
+.ClientForm-AvatarPicker {
+  margin-right: 30px;
+}
+
+.ClientForm-AvatarPreview {
+
+}
+
+.ClientForm-CheckboxFieldTitle {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ClientForm-Button {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+
+  &.btn{
+    padding: 0;
+  }
+}
+
+.ClientForm-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.ClientForm-LabelIcon {
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.ClientForm-InfoIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ClientForm-TooltipBody {
+  text-align: left;
+  padding: 7px 20px;
+  margin: 0;
+}

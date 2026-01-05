@@ -1,0 +1,98 @@
+.CommunityForm {
+  position: relative;
+}
+
+.CommunityForm-Section {
+  padding: 20px 40px 20px;
+}
+
+.CommunityForm-SectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.CommunityForm-Tabs {
+  margin-top: 15px;
+}
+
+.CommunityForm-TextAreaField {
+  .TextField-Input {
+    height: 75px;
+  }
+}
+
+.CommunityForm-CheckboxField {
+  margin-bottom: 2rem;
+}
+
+.CommunityForm-SelectField {
+
+}
+
+.CommunityForm-SearchField {
+  margin-top: 2rem;
+}
+
+.CommunityForm-CheckboxFieldTitle {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.CommunityForm-CheckboxField {
+  margin-right: 20px;
+}
+
+.CommunityForm-Button {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+
+  &.btn{
+    padding: 0;
+  }
+}
+
+.CommunityForm-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.CommunityForm-Actions{
+  float: right;
+
+  .delete {
+    fill: #448993;
+  }
+}
+
+.Relationship-Title {
+  color: #4c4e51;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.Relationship {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.CommunityForm-LabelIcon {
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.CommunityForm-PhoneTooltipBody {
+  text-align: left;
+  padding: 7px 20px;
+  margin: 0;
+}

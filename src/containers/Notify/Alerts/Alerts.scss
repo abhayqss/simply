@@ -1,0 +1,92 @@
+.Alerts {
+  height: 100%;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.AlertListContainer {
+  padding: 17px;
+}
+
+.Alerts-Caption {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.Alerts-Title {
+  position: relative;
+}
+
+.Alerts-ActiveAlertCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 160px;
+}
+
+.Alerts-SystemAlertCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 175px;
+}
+
+.Alerts-OvalIcon {
+  width: 9px;
+  height: 9px;
+}
+
+.Alerts-OrganizationSelect, .Alerts-CommunitySelect {
+  padding: 8px 16px;
+  display: inline-block;
+  max-width: 420px;
+
+  .MultiSelect-ToggleText {
+    color: #448993;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .MultiSelect-ToggleTextOnExpand {
+    color: #448993;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .MultiSelect-ToggleChevron {
+    fill: #448993;
+  }
+}
+
+.Alerts-Resident {
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.ActiveAlertList-StatusTitle {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+

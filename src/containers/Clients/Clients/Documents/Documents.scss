@@ -1,0 +1,125 @@
+.Documents {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.DocumentList {
+}
+
+.DocumentListContainer {
+  margin-top: 25px;
+}
+
+.DocumentList-Caption {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.DocumentList-Title {
+  position: relative;
+  display: inline-block;
+}
+
+.DocumentList-DocCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 150px;
+  top: 3px;
+}
+
+.DocumentList-Filter {
+  .btn {
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  background: #f9f9f9;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.DocumentList-FilterField {
+  max-width: 400px;
+}
+
+.DocumentList-FilterFieldIcon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+}
+
+.Documents-FilterBtn {
+  cursor: pointer;
+  margin-right: 32px;
+  margin-left: 10px;
+}
+
+.Documents-FilterExpanded {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+.Documents-FilterCollapsed {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.DocumentList-DocTitleText {
+  color: #448993;
+  font-weight: bold;
+  padding: 4px 0;
+  text-align: center;
+  width: calc(100% - 44px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+
+.DocumentList-DocTitleIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.DocumentList-InfoHint {
+  .tooltip-inner {
+    max-width: none;
+    width: 100%;
+    padding: 14px 24px;
+  }
+
+  left: -10px !important;
+}
+
+.DocumentList-DocDetail {
+  display: flex;
+
+  .Detail-Title {
+    flex: 3;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .Detail-Value {
+    flex: 4;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+  }
+}
+
+.DocumentList-Actions {
+  float: right;
+}

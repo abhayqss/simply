@@ -1,0 +1,55 @@
+html, body, .root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+// Override default variables before the import
+
+// Import Bootstrap and its default variables
+
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+$green: #009288;
+
+$react-rater-active: #ffb602 !default
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+@import '~@trendmicro/react-sidenav/dist/react-sidenav.css';
+@import '~react-rater/lib/react-rater.scss';
+@import '~icheck/skins/all.css';
+
+@import 'fonts';
+@import 'custom/common';
+@import 'custom/tooltip';
+@import 'custom/buttons';
+@import 'custom/badge';
+@import 'custom/scrollbar';
+@import 'components/charts/Chart/Chart';
+@import 'components/MainLayout/MainLayout';
+
+.btn-orange {
+  background-color: $orange;
+  border-color: $orange;
+}
+
+.btn-orange:hover {
+  background-color: darken($orange, 6%);
+  border-color: darken($orange, 6%);
+}
+
+// todo bugfix for bootstrap
+body {
+  font-family: "Open Sans", sans-serif !important;
+}

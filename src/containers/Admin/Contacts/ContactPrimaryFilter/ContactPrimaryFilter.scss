@@ -1,0 +1,28 @@
+.ContactPrimaryFilter {
+  margin-top: 10px;
+}
+
+.ContactPrimaryFilter-Field {
+  display: inline-block;
+  max-width: 420px;
+
+  .MultiSelect-ToggleText {
+    color: #448993;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .MultiSelect-ToggleTextOnExpand {
+    color: #448993;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .MultiSelect-ToggleChevron {
+    fill: #448993;
+  }
+}
+
+.ContactPrimaryFilter-Field_frozen {
+  pointer-events: none;
+}

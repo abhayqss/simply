@@ -1,0 +1,23 @@
+.ClientEventUtilizationSummary {
+
+}
+
+.ClientEventUtilizationSummary-EventCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 4px 11px;
+  }
+
+  position: absolute;
+  top: 0;
+}
+
+.ClientEventUtilizationSummary-ViewEventsBtn {
+  height: 35px;
+
+  &.btn {
+    padding: 6px 16px;
+  }
+}

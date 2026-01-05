@@ -1,0 +1,72 @@
+.ClientMedicationsSummary {
+}
+
+.ClientMedicationsSummary-Title {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.ClientMedicationsSummary-TitleText {
+  margin-right: 6px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #4c4e51;
+  font-family: "Open Sans Semibold", sans-serif;
+  margin-bottom: 18px;
+}
+
+.ClientMedicationsSummary-MedicationCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 4px 11px;
+  }
+
+  position: absolute;
+  top: 0;
+}
+
+.ClientMedicationsSummary-Body {
+  display: flex;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+.ClientMedicationList {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.ClientMedicationList-Item {
+  &.list-group-item {
+    border: none;
+  }
+}
+
+.ClientMedication {
+
+}
+
+.ClientMedication-Name {
+  color: #448993;
+  font-size: 14px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ClientMedication-Date {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ClientMedication-Instruction {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ClientMedication-Time {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}

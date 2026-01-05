@@ -1,0 +1,49 @@
+.NoteForm {
+
+}
+
+.NoteForm-Section {
+  padding: 20px 40px 20px;
+}
+
+.NoteForm-SectionTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.NoteForm-SelectField {
+
+}
+
+.NoteForm-TextArea {
+  .TextField-Input {
+    height: 80px;
+  }
+}
+
+.NoteForm-Button {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+
+  &.btn{
+    padding: 0;
+  }
+}
+
+.NoteForm-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.NoteForm-LabelIcon{
+  margin-bottom: 4px;
+  margin-left: 4px;
+}

@@ -1,0 +1,51 @@
+.CommunityDeviceTypes {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.DeviceTypesList {
+
+}
+
+.DeviceTypesListContainer {
+  margin-top: 25px;
+}
+
+.DeviceTypesList-Caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DeviceTypesList-Title {
+  position: relative;
+  display: inline-block;
+}
+
+.DeviceTypesList-DeviceTypeCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 168px;
+  top: 3px;
+}
+
+.DeviceTypesList-Filter {
+  margin-top: 20px;
+}
+
+.DeviceTypesList-FilterField {
+  max-width: 400px;
+}
+
+.DeviceTypesList-FilterFieldIcon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+}

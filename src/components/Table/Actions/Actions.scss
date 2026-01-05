@@ -1,0 +1,32 @@
+.Actions {
+  svg:focus {
+    outline: none;
+  }
+}
+
+.Actions-Item {
+  &:hover{
+    background-color: #448993;
+    border-radius: 3px;
+    transition: 0.2s;
+    fill: white;
+    stroke: white;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  margin-right: 20px;
+  cursor: pointer;
+  fill: #448993;
+  padding: 6px;
+}
+
+.cog{
+  stroke: #b3b3b3;
+}
+
+.pencil{
+  fill: #b3b3b3;
+}

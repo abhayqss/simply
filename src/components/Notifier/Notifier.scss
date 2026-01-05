@@ -1,0 +1,23 @@
+.Notifier {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.Notifier-Indicator {
+  height: 7px;
+  width: 7px;
+  border-radius: 4px;
+  background-color: #F36C32;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+.Notifier-Icon {
+  cursor: pointer;
+  &:hover {
+    background-color:  #f9f9f9;
+    //text-decoration: none;
+  }
+}

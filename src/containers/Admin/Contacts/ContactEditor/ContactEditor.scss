@@ -1,0 +1,9 @@
+.ContactEditor {
+  @media (min-width: 576px) {
+    &.modal-dialog {
+      width: 1030px;
+      max-width: 1040px;
+    }
+  }
+}
+

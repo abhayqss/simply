@@ -1,0 +1,174 @@
+.Contacts {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.ContactListContainer {
+  margin-top: 25px;
+}
+
+.ContactList {
+  min-width: 1400px;
+}
+
+.ContactList-Caption {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.ContactList-Title {
+  position: relative;
+  display: inline-block;
+}
+
+.ContactList-ContactCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 115px;
+  top: 3px;
+}
+
+.ContactList-ContactName {
+  color: #448993;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  font-family: "Open Sans Semibold", sans-serif;
+
+  &:hover {
+    text-decoration: none;
+    color: #448993;
+  }
+}
+
+.ContactList-Avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.ContactList-Avatar_black-white {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.ContactList-UserName {
+ margin-left: 10px;
+}
+
+.ContactList-MemberRelation {
+  font-size: 14px;
+  color: #898989;
+}
+
+.ContactList-Status {
+  color: #333333;
+  font-size: 14px;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+
+.ContactList-Actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ContactList-Membership {
+  font-size: 14px;
+  float: right;
+}
+
+.ContactList-MembershipLink {
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+  float: right;
+  cursor: pointer;
+}
+
+.ContactFilter-Icon {
+  cursor: pointer;
+  margin-right: 32px;
+  margin-left: 10px;
+}
+
+.ContactFilter-Icon_rotated_90 {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+.ContactFilter-Icon_rotated_0 {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.ContactMembershipHint {
+  .tooltip {
+    z-index: 0;
+  }
+}
+
+.ContactMembershipHint-Body {
+  display: flex;
+  max-width: 280px;
+  max-height: 400px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  padding: 5px 20px;
+}
+
+.ContactMembership-Title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.ContactMembership-Client,
+.ContactMembership-Community {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #448993;
+  margin-bottom: 20px;
+  font-family: "Open Sans Semibold", sans-serif;
+
+  &:hover {
+    color: #448993;
+    text-decoration: none;
+  }
+}
+
+.ContactMembershipHint::-webkit-scrollbar {
+  width: 10px;
+  height: 9px;
+  border:1px solid #e0e0e0;
+}
+
+.ContactMembershipHint::-webkit-scrollbar-track {
+  border-radius: 2px;
+}
+
+.ContactMembershipHint::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  width:18px;
+}
+
+.MultiSelectRow {
+  margin-top:10px;
+}

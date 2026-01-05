@@ -1,0 +1,126 @@
+.CaseloadForm {
+
+}
+
+.CaseloadForm-Section {
+  padding: 20px 40px 20px;
+}
+
+.CaseloadForm-SectionTitle {
+  position: relative;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.CaseloadForm-Button {
+  width: 100px;
+  height: 35px;
+  margin-top: 30px;
+
+  &.btn{
+    padding: 0;
+  }
+}
+
+.CaseloadForm-FilterFieldIcon {
+  top: 45px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #4C4E51;
+  position: absolute;
+}
+
+.CaseloadForm-ConfirmVisibilityField {
+  display: inline-block;
+}
+
+.CaseloadForm-Actions {
+  float: right;
+
+  .delete {
+    fill: #448993;
+  }
+}
+
+.PickableClientList {
+  &.Table {
+    table-layout: auto;
+
+    caption {
+      display: none;
+    }
+
+    th {
+      background-color: #ffffff;
+      color: #333333;
+    }
+
+    &.table-striped {
+      tbody {
+        tr {
+          &:nth-of-type(odd) {
+            background-color: #f9f9f9;
+          }
+          &:nth-of-type(even) {
+            background-color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ClientPicker-Btn {
+  &.btn {
+    padding: 0;
+  }
+
+  float: right;
+  width: 100px;
+  height: 35px;
+  border-radius: 1px;
+  margin-right: 25px;
+}
+
+.ClientPicker {
+  .pagination {
+    margin-right: 25px;
+    margin-bottom: 30px;
+  }
+
+  padding-bottom: 40px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.CaseloadForm-TextArea {
+  .TextField-Input.form-control {
+    min-height: 75px;
+  }
+}
+
+.CaseloadForm-CheckboxField {
+  margin-top: 28px;
+}
+
+.CaseloadForm-ClientCount {
+  &.badge {
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  position: absolute;
+  left: 90px;
+  top: 3px;
+}
+
+.PickableClientList-Checkbox {
+  margin-bottom: 9px;
+}
+
+.PickableClientListContainer {
+  padding: 0 17px;
+}

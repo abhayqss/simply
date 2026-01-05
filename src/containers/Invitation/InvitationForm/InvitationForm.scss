@@ -1,0 +1,38 @@
+.InvitationForm {
+  width: 350px;
+}
+
+.InvitationForm-TextField {
+  .TextField-Error {
+    position: sticky;
+    left: inherit;
+    bottom: inherit;
+    padding-top: 5px;
+    border-color: #f33232;
+  }
+
+  &.form-group.TextField {
+    margin-bottom: 25px;
+  }
+
+  .TextField-Input {
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    padding: 0 1em;
+
+  }
+
+  margin-bottom: 0 ;
+}
+
+.InvitationForm-Btn {
+  &.btn {
+    padding: 0;
+  }
+
+  margin-right: 30px;
+  width: 100px;
+  height: 35px;
+}

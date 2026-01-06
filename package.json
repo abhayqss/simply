@@ -81,7 +81,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "/web-portal/",
+  "homepage": "/",
   "browserslist": [
     ">0.2%",
     "not dead",

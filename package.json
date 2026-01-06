@@ -26,6 +26,7 @@
     "key-mirror": "1.0.1",
     "local-storage": "2.0.0",
     "moment": "2.24.0",
+    "node-sass": "^9.0.0",
     "pc-bootstrap4-datetimepicker": "4.17.50",
     "prop-types": "15.7.2",
     "qs": "^6.9.0",
@@ -91,7 +92,6 @@
   "devDependencies": {
     "@types/google-maps": "^3.2.0",
     "redux-devtools": "3.4.1",
-    "sass": "^1.97.1",
     "webpack-cli": "^3.2.3"
   }
 }
